@@ -470,7 +470,7 @@
     "noResults": "Žádná místnost neodpovídá tomuto vyhledávání.",
     "noResultsSubtitle": "Zkuste jiný termín nebo vymažte filtr, abyste viděli celý seznam.",
     "people": "Lidé",
-    "host": "Moderátor",
+    "host": "Hostitel,
     "join": "Vstupte do místnosti",
     "currentRoom": "Už jsi tady",
     "featured": {
@@ -545,7 +545,7 @@
       "loadError": "Teď bychom nemohli naložit pokoj.",
       "panelLabel": "Panel místnosti",
       "closePanel": "Zavřít",
-      "hostLabel": "Moderátor",
+      "hostLabel": "Hostitel",
       "listenersLabel": "Teď poslouchám",
       "queueLabel": "Současná fronta",
       "nowPlayingLabel": "Nyní hraje",
@@ -792,7 +792,7 @@
         "currentDj": "Aktuální DJ: {name}",
         "awaitingDj": "Čekám na další DJ",
         "liveBadge": "ŽIVĚ",
-        "host": "Moderátor: {name}",
+        "host": "Hostitel: {name}",
         "verified": "Ověřená místnost",
         "partner": "Místnost s partnerem",
         "volume": "Počet hráčů",
@@ -825,7 +825,7 @@
         "verified": "Ověřeno",
         "partner": "Partner",
         "overview": "Přehled místnosti",
-        "host": "Moderátor",
+        "host": "Hostitel",
         "activeUsers": "V místnosti",
         "queue": "Ve frontě",
         "visibility": "Viditelnost",
@@ -1643,8 +1643,8 @@
       },
       "queueAction": {
         "leaveBooth": "Opusťte kabinu",
-        "leaveQueue": "Nechat frontu",
-        "skipTurn": "Přeskočení tahu",
+        "leaveQueue": "Opustit frontu",
+        "skipTurn": "Přeskočení songu",
         "enterQueue": "Připojit se do fronty",
         "queueFull": "Čekací listina je plná",
         "queueLocked": "Fronta zamčena",
@@ -1652,10 +1652,10 @@
         "externalMedia": "Externí média",
         "locked": "Zamčeno",
         "turn": "Teď jsi na řadě ty.",
-        "eta": "Dodatek: {time}",
+        "eta": "Čas: {time}",
         "etaNow": "ETA: teď",
         "etaLive": "ETA: po živém přenosu",
-        "etaUnknown": "Dodatek: —"
+        "etaUnknown": "Čas: —"
       },
       "queueDialog": {
         "currentDjTitle": "Co chceš dělat?",
@@ -1663,9 +1663,9 @@
         "leaveQueueTitle": "Opustit frontu?",
         "leaveQueueSubtitle": "Už jste ve frontě DJ . Chceš to teď nechat být?",
         "cancel": "Zrušit",
-        "skipTurn": "Přeskočení tahu",
-        "leaveQueue": "Nechat frontu",
-        "leaveDjQueue": "Nechte DJ frontě"
+        "skipTurn": "Přeskočení songu",
+        "leaveQueue": "Opustit frontu",
+        "leaveDjQueue": "Opustit frontu DJů"
       },
       "votes": {
         "woot": "Jupí",
@@ -1825,17 +1825,17 @@
       "messageEditError": "Teď jsme tuto zprávu nemohli upravit.",
       "messageTooLong": "Zprávy mohou být maximálně {count} znaků dlouhé.",
       "whispers": {
-        "title": "Šeptání",
-        "open": "Otevřené šeptání",
-        "shortOpen": "Šeptání",
-        "minimize": "Minimalizujte šeptání",
+        "title": "Soukromá zpráva",
+        "open": "Otevřená soukromá zpráva",
+        "shortOpen": "Soukromá zpráva",
+        "minimize": "Minimalizujte soukromou zprávu",
         "closePanel": "Blízké šepoty",
         "refresh": "Refresh whispers",
         "searchPlaceholder": "Hledat lidi",
-        "panelLoading": "Načítavající šeptání...",
-        "panelEmpty": "Ještě žádné šeptání.",
+        "panelLoading": "Načítavající soukromá zpráva...",
+        "panelEmpty": "Ještě žádná soukromá zpráva.",
         "searchEmpty": "Žádná konverzace nalezena.",
-        "panelLoadError": "Teď bychom nemohli načíst šeptání.",
+        "panelLoadError": "Teď bychom nemohli načíst soukromou zprávu.",
         "youPrefix": "Vy:",
         "you": "Ty",
         "unknownUser": "Uživatel",
@@ -2379,7 +2379,7 @@
       "queue": {
         "currentDj": "Současné DJ",
         "moveHandle": "Přesun uživatele ve frontě",
-        "moveToTop": "Přesunout se nahoru",
+        "moveToTop": "Přesunout nahoru",
         "moveToBottom": "Přesun na konec",
         "removeFromQueue": "Odebrat z fronty",
         "nextUp": "Příště",
@@ -2393,9 +2393,9 @@
         "subscriber": "Odběratel",
         "resident_dj": "Rezidentní DJ",
         "bouncer": "Vyhazovač",
-        "manager": "Trenér",
-        "cohost": "Spolumoderátor",
-        "host": "Moderátor"
+        "manager": "Manažer",
+        "cohost": "Spoluhostitel",
+        "host": "Hostitel"
       },
       "mentionTargets": {
         "everyone": "Celá místnost",
@@ -2438,7 +2438,7 @@
         "addToQueue": "Přidat do fronty",
         "removeFromQueue": "Odebrat z fronty",
         "removeFromBooth": "Odstraňte z kabiny",
-        "skipTurn": "Přeskočení tahu",
+        "skipTurn": "Přeskočení songu",
         "skipTrack": "Přeskočit skladbu",
         "warn": "Varování",
         "warnSuccess": "Varování vydáno {username}.",
@@ -3240,9 +3240,9 @@
       "bulkDeletePartial": "{removed} odstraněny tratě, {failed} selhala.",
       "reorderSuccess": "Pořadí playlistů bylo aktualizováno.",
       "reorderError": "Teď jsme nemohli tento playlist přeuspořádat.",
-      "moveToTop": "Přesunout se nahoru",
-      "moveToEnd": "Move to end",
-      "editClip": "Cut track",
+      "moveToTop": "Přesunout nahoru",
+      "moveToEnd": "Přesunout dolů",
+      "editClip": "Oříznout track",
       "clipBadge": "{start}-{end}",
       "clipDialogSubtitle": "Vyberte segment, který by měl běžet. Původní délka trvání je {duration}.",
       "clipStartLabel": "Start",
@@ -3439,7 +3439,7 @@
     },
     "settings": {
       "eyebrow": "Preference účtu",
-      "title": "Prostředí",
+      "title": "Nastavení",
       "subtitle": "Upravte svůj účet, způsob, jakým vás upozornění dostávají, a formát vašeho zážitku napříč WavezFM.",
       "tabs": {
         "account": "Vyprávění",
@@ -4264,7 +4264,7 @@
         "table": {
           "room": "Pokoj",
           "visibility": "Viditelnost",
-          "owner": "Moderátor",
+          "owner": "Hostitel",
           "flags": "Vlajky",
           "online": "Online",
           "updatedAt": "Aktualizováno",
@@ -4993,7 +4993,7 @@
         "public": "Veřejnost",
         "table": {
           "room": "Pokoj",
-          "owner": "Moderátor",
+          "owner": "Hostitel",
           "type": "Přístup",
           "users": "Uživatelé",
           "created": "Vytvořeno",
@@ -5028,8 +5028,8 @@
           "roles": {
             "resident_dj": "Rezidentní DJové",
             "bouncer": "Bouncers",
-            "manager": "Trenéři",
-            "cohost": "Spolumoderátoři"
+            "manager": "Manažeři",
+            "cohost": "Spoluhosti"
           }
         },
         "staffChatAccess": {
@@ -5041,8 +5041,8 @@
           "roles": {
             "resident_dj": "Rezidentní DJové",
             "bouncer": "Bouncers",
-            "manager": "Trenéři",
-            "cohost": "Spolumoderátoři"
+            "manager": "Manažeři",
+            "cohost": "Spoluhosti"
           }
         },
         "theme": {
@@ -6241,8 +6241,8 @@
         "roomRoleAssignmentLimitRoles": {
           "resident_dj": "Rezidentní DJové",
           "bouncer": "Bouncers",
-          "manager": "Trenéři",
-          "cohost": "Spolumoderátoři"
+          "manager": "Manažeři",
+          "cohost": "Spoluhosti"
         },
         "roomRoleAssignmentLimitsSave": "Limity uložených pozic",
         "roomRoleAssignmentLimitsSaving": "Limity úspor...",
@@ -6256,15 +6256,15 @@
         "staffChatRoleAccessRoles": {
           "resident_dj": "Rezidentní DJové",
           "bouncer": "Bouncers",
-          "manager": "Trenéři",
-          "cohost": "Spolumoderátoři"
+          "manager": "Manažeři",
+          "cohost": "Spoluhosti"
         },
         "staffChatRoleAccessSave": "Uložit přístup",
         "staffChatRoleAccessSaving": "Ušetřením přístupu...",
         "staffChatRoleAccessSaveError": "Nemohli jsme aktualizovat přístup do chatu zaměstnanců.",
         "staffChatRoleAccessUpdated": "Přístup do chatu zaměstnanců byl aktualizován.",
-        "roomRoleLimitCohost": "Spolumoderátor",
-        "roomRoleLimitManager": "Trenér",
+        "roomRoleLimitCohost": "Spoluhost",
+        "roomRoleLimitManager": "Manažer",
         "roomRoleLimitBouncer": "Vyhazovač",
         "roomRoleLimitResidentDj": "Rezidentní DJ",
         "subscriberPerksTitle": "Výhody pro předplatitele",
@@ -7664,9 +7664,9 @@
       "audienceCount": "{count, plural, =0 {Nula lidí v místnosti} one {# osoba v místnosti} other {# lidé v místnosti}}",
       "open": "Otevřená místnost",
       "roles": {
-        "host": "Moderátor",
-        "cohost": "Spolumoderátor",
-        "manager": "Trenér"
+        "host": "Hostitel",
+        "cohost": "Spoluhostitel",
+        "manager": "Manažer"
       },
       "tabs": {
         "owned": "Pokoje, které vlastníte",
