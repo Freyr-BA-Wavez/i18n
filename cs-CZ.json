@@ -749,8 +749,8 @@
       },
       "level": "Úroveň",
       "fans": "Fanoušci",
-      "fansCount": "{count, plural, one {# Fanoušek} other {# Fanoušci}}",
-      "fanLabel": "{count, plural, one {Fanoušek} other {Fanoušci}}",
+      "fansCount": "{count, plural, one {# Fanda} other {# Fandové}}",
+      "fanLabel": "{count, plural, one {Fanda} other {Fandové}}",
       "sharedMediaAlt": "Sdílená média",
       "mediaPreviewTitle": "Náhled obrázku",
       "mediaPreviewOpenOriginal": "Otevřený originál",
@@ -1558,7 +1558,7 @@
         "grabSavedToast": "\"{title}\" bylo přidáno k {playlist}.",
         "actions": {
           "preview": "Náhled",
-          "grab": "Chyť",
+          "grab": "Grab",
           "grabLoading": "Ukládám..."
         },
         "pagination": {
@@ -1668,8 +1668,8 @@
         "leaveDjQueue": "Nechte DJ frontě"
       },
       "votes": {
-        "woot": "Jupí",
-        "grab": "Chyť",
+        "woot": "Woot",
+        "grab": "Grab",
         "meh": "Meh"
       },
       "trackToast": {
@@ -2581,7 +2581,7 @@
       "expandSidebar": "Rozbalit postranní panel",
       "collapseSidebar": "Postranní panel pro skládání",
       "shop": "Obchod",
-      "settings": "Prostředí",
+      "settings": "Nastavení",
       "admin": "Správa",
       "ambassador": "Panel velvyslanců",
       "logout": "Odhlásit se",
