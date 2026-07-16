@@ -929,7 +929,7 @@
       },
       "settingsPanel": {
         "button": "Místnost",
-        "mobileButton": "Prostředí",
+        "mobileButton": "Nastavení",
         "title": "Místnost",
         "close": "Uzavřené prostředí místnosti",
         "save": "Nastavení ukládání",
