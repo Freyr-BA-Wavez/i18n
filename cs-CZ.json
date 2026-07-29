@@ -2461,7 +2461,7 @@
         "moveToTop": "Přesunout se nahoru",
         "moveToBottom": "Přesun na konec",
         "removeFromQueue": "Odebrat z fronty",
-        "nextUp": "Příště",
+        "nextUp": "Další",
         "waiting": "Ve frontě",
         "emptyTitle": "Fronta je prázdná",
         "emptyDescription": "Nikdo se zatím nepřidal do fronty."
@@ -2521,8 +2521,8 @@
         "cancel": "Zrušit"
       },
       "actions": {
-        "becomeFan": "Staňte se fanouškem",
-        "unfan": "Odstraňte fanoušek",
+        "becomeFan": "Buď kamarád",
+        "unfan": "Odebrat kamaráda",
         "mention": "Zmínka",
         "whisper": "DM",
         "viewProfile": "Zobrazit profil",
@@ -3532,12 +3532,12 @@
       "searchError": "Tohoto uživatele jsme nenašli.",
       "selfSearchError": "Tady nemůžeš hledat sám sebe.",
       "searchMeta": "Úroveň {level} · {fans, plural, one {# fanoušek} other {# fanoušci}}",
-      "follow": "Staňte se fanouškem",
-      "unfollow": "Přestaň být fanouškem",
-      "followSuccess": "Teď jste fanouškem {username}.",
-      "unfollowSuccess": "Přestal jsi být fanouškem {username}.",
+      "follow": "Sledovat",
+      "unfollow": "Nesledovat",
+      "followSuccess": "Teď jste přátele {username}.",
+      "unfollowSuccess": "Přestal jsi být kamarádem {username}.",
       "followError": "Momentálně jsme nemohli aktualizovat váš status fanoušků.",
-      "addFan": "Staňte se fanouškem",
+      "addFan": "Přidat kámoše",
       "superfan": "Superfan",
       "fanRequestSent": "Žádost fanoušků byla odeslána na {username}.",
       "fanRequestSentToast": "Žádost odeslána",
@@ -3565,7 +3565,7 @@
       "followingTitle": "Následující",
       "followingEmpty": "Ještě nejsi fanouškem nikoho.",
       "followingSubtitle": "Tvůrci a lidé, se kterými udržujete kontakt.",
-      "followingEmptySubtitle": "Staňte se fanouškem uživatelů, abyste byli v kontaktu se svou komunitou.",
+      "followingEmptySubtitle": "Staňte se kamarádi uživatelů, abyste byli v kontaktu se svou komunitou.",
       "currentRoom": "Současná místnost",
       "openProfile": "Zobrazit profil"
     },
@@ -7757,10 +7757,10 @@
         "removeSuperfanConfirmDescription": "Už nebudete velkým fanouškem {username}.",
         "removeSuperfanConfirmSubmit": "Odstraňte superfanoušek",
         "removeSuperfanConfirmCancel": "Zrušit",
-        "becomeFan": "Staňte se fanouškem",
-        "unfan": "Přestaň být fanouškem",
-        "becomeFanSuccess": "Teď jste fanouškem {username}.",
-        "unfanSuccess": "Přestal jsi být fanouškem {username}."
+        "becomeFan": "Přidat kamaráda",
+        "unfan": "Odebrat kamaráda",
+        "becomeFanSuccess": "Teď jste kamarádi {username}.",
+        "unfanSuccess": "Přestal jsi být kamarád {username}."
       }
     },
     "myStuff": {
