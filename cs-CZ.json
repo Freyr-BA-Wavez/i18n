@@ -143,7 +143,7 @@
       "roomPreviewLabel": "Ukázka distribuce",
       "roomPreviewTitle": "{count, plural, one {# Měsíční předplatné Gift} other {# Měsíční dárky na předplatné}}",
       "roomPreviewBody": "Systém automaticky rezervuje až do {count, plural, one {# Způsobilá aktivní osoba} other {# Způsobilé aktivní osoby}} V současné místnosti před otevřením platby.",
-      "recipientMeta": "Úroveň {level} • {fans, plural, one {# fanoušek} other {# fanoušci}}",
+      "recipientMeta": "Úroveň {level} • {fans, plural, one {# fanoušek} other {# fans}}",
       "recipientSubscriptionActive": "Aktivní předplatné do {date}. Tento dárek přidá další {quantity} navrchu.",
       "recipientSubscriptionActiveNoEnd": "Tento účet už má aktivní předplatné. Tento dárek přidá další {quantity} navrchu.",
       "recipientEmpty": "Zadejte uživatelské jméno pro načtení náhled účtu.",
@@ -752,7 +752,7 @@
       },
       "idLabel": "ID",
       "user": {
-        "fanLabel": "{count, plural, one {Fanoušek} other {Fanoušci}}"
+        "fanLabel": "{count, plural, one {Fanoušek} other {Fans}}"
       },
       "countryFlag": {
         "edit": "Změnit vlajku",
@@ -766,8 +766,8 @@
       },
       "level": "Úroveň",
       "fans": "Fanoušci",
-      "fansCount": "{count, plural, one {# Fanoušek} other {# Fanoušci}}",
-      "fanLabel": "{count, plural, one {Fanoušek} other {Fanoušci}}",
+      "fansCount": "{count, plural, one {# Fanoušek} other {# Fans}}",
+      "fanLabel": "{count, plural, one {Fanoušek} other {Fans}}",
       "sharedMediaAlt": "Sdílená média",
       "mediaPreviewTitle": "Náhled obrázku",
       "mediaPreviewOpenOriginal": "Otevřený originál",
